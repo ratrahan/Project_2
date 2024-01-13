@@ -40,7 +40,6 @@ main {
     background-image: url(/images/image-background-card1.jpg);
     background-size: cover;
     background-position: bottom;
-    text-decoration: none;
     min-height: 250px;
     width: 30%;
  
@@ -60,6 +59,11 @@ main {
     background-position: bottom;
     width: 30%;
     min-height: 250px;
+}
+
+.card1, .card2, .card3 {
+    padding: 30px 30px 30px 30px;
+    box-sizing: border-box;
 }
 
 .herobox1 {
@@ -91,12 +95,11 @@ p {
 .cards p {
     font-size: 0.85rem;
     line-height: 1.2rem;
-    margin: 10px 30px 20px 30px;
+    margin-top: 10px;
 }
 
 .cards i {
     font-size: 100px;
-    padding-top: 30px;
 }
 
 .cards a {
