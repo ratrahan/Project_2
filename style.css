@@ -1,7 +1,3 @@
-html{
- 
-}
-
 body {
     background-image: linear-gradient(#fc5e55,#fa4083);
     color: white;
@@ -135,6 +131,8 @@ a.mybutton {
     font-family: 'Playfair Display', serif;
     border: 1px solid white;
     padding: 11px 25px;
+    display: inline-block;
+    position: relative;
 }
 
 .testimonials {
@@ -151,3 +149,39 @@ a.mybutton {
     box-sizing: border-box;
     margin-top: 50px;
 }
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -27px;
+    width: 151px;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton  {
+    background-color: white;
+ }
+ 
+ .dropdown .navbutton a {
+    color: #fc5e55;
+  }
+  .dropdown .navbutton:hover {
+    background-color: #fc5e55;
+    transition: 0.5s;
+  }
+
+  .dropdown .navbutton:hover a {
+    color: white;
+  }
